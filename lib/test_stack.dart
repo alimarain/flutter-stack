@@ -10,39 +10,32 @@ class TestStack extends StatelessWidget {
         backgroundColor: Colors.greenAccent,
         title: Text("stack"),
       ),
-      body: Stack(
-        children: [
-          Positioned(
-            top: 60,
-            
-            child: Container(
-            height: 150,
-            width: 100,
+      body: Container(
+            height: MediaQuery.of(context).size.height *0.50,
+            width: MediaQuery.of(context).size.width *0.50,
             color: Colors.black,
-          )
           ),
-            Positioned(
-            top: 40,
+          //   Positioned(
+          //   top: 40,
            
               
-            child:Container(
-            height: 30,
-            width: 100,
-            color: Colors.green,
+          //   child:Container(
+          //   height: 30,
+          //   width: 100,
+          //   color: Colors.green,
           
-            )
-            ),
+          //   )
+          //   ),
             
-          Positioned(
-            top: 20,
+          // Positioned(
+          //   top: 20,
           
-            child: Container(
-            height: 20,
-            width: 100,
-            color: Colors.red,
-          )
-          )
-        ],
-      ),
-    ) ; }
+          //   child: Container(
+          //   height: 20,
+          //   width: 100,
+          //   color: Colors.red,
+          // )
+          // )
+    );
+ }
 }

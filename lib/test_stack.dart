@@ -11,9 +11,12 @@ class TestStack extends StatelessWidget {
         title: Text("stack"),
       ),
       body: Container(
+            margin: EdgeInsets.all(80),
+            padding: EdgeInsets.all(80),
+            decoration: BoxDecoration(color: Colors.red),
             height: MediaQuery.of(context).size.height *0.50,
             width: MediaQuery.of(context).size.width *0.50,
-            color: Colors.black,
+            child: Text("mediaquery and stack"),
           ),
           //   Positioned(
           //   top: 40,

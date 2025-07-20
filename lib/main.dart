@@ -1,3 +1,4 @@
+import 'package:figma/tab_bar.dart';
 import 'package:figma/test_stack.dart';
 import 'package:flutter/material.dart';
 
@@ -13,7 +14,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: TestStack(),
+      home: tab(),
     );
   }
 }
